@@ -1,8 +1,10 @@
 {
-  "name": "navbar",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "StyledComponents",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MoizAli-tech/React_CSSModules_-practice-.git",
+  "author": "moiz <amoiz.3149@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,10 +12,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router": "^6.11.2",
-    "react-router-dom": "^6.11.2"
+    "react-router-dom": "^6.11.2",
+    "styled-components": "^6.0.0-rc.3"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

@@ -4,28 +4,18 @@
 }
 
 .Services{
-    padding: 10rem;
     height:50vh;
-    font-size: 4rem;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.functionalities{
-    display:flex;
-    flex-direction: column;
-    row-gap: 4rem;
-    
-}
+
 
 i{
     margin-right: 3rem;
+    max-width:100%;
 }
 
 .design{
-    font-size: 35rem;
+    font-size: 25rem;
     color:#01d8ff;
-   
     animation: fade 2s infinite linear;
 }

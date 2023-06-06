@@ -1,13 +1,19 @@
 import React from 'react'
 import Header from './Header'
 import HomeCSS from "./Home.module.css"
+import {Flex} from "./components/Flex.styled.js"
+import {HomeStyle} from "./components/Home.styled.js"
+
+
 const Home = () => {
   return (
-    <div className={HomeCSS.Home}>
+    <Flex justify="center" align="center">
+      <HomeStyle>
+          <h1 >Welcome to your own very home</h1>
 
-        <h1 className={HomeCSS.heading}>Welcome to your own very home</h1>
-        
-    </div>
+      </HomeStyle>    
+          
+    </Flex>
   )
 }
 

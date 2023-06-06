@@ -1,24 +1,10 @@
 
 .font_icon{
     font-size: 6rem;
-    color:#2B547E;
 }
 
 .Header{
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
     margin-right: 5rem;
 }
 
-.links{
-    font-size:3rem;
-    padding:1rem;
-    margin:1rem 0;
-    color:#2B547E;
-    text-decoration: none;
-}
 
-.link-active{
-    color:green;
-}
